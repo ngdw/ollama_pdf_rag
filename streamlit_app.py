@@ -24,6 +24,7 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain.retrievers.multi_query import MultiQueryRetriever
 from typing import List, Tuple, Dict, Any, Optional
 
+
 # Streamlit page configuration
 st.set_page_config(
     page_title="Ollama PDF RAG Streamlit UI",
